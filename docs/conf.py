@@ -74,7 +74,7 @@ comments_config = {
     "hypothesis": True,
     "dokieli": False,
     "utterances": {
-        "repo": "xinetzone/sphinx-demo",
+        "repo": "xinetzone/poetry-book",
         "optional": "config",
     }
 }
@@ -195,7 +195,7 @@ html_theme_options = {
     # 默认情况下，编辑按钮将指向版本库的根。
     # 如果你的文档被托管在一个子文件夹中，请使用以下配置：
     "path_to_docs": "docs/",  # 文档的路径，默认 `docs/``
-    "repository_url": "https://github.com/xinetzone/sphinx-demo",
+    "repository_url": "https://github.com/xinetzone/poetry-book",
     "repository_branch": "main",  # 文档库的分支，默认 `master`
     # -- 在导航栏添加一个按钮，链接到版本库的议题 ------------------------------
     # （与 `repository_url` 和 `repository_branch` 一起使用）
@@ -226,7 +226,7 @@ html_theme_options = {
     # 重命名页内目录名称
     "toc_title": "导航",
     "launch_buttons": {
-        # https://mybinder.org/v2/gh/xinetzone/sphinx-demo/main
+        # https://mybinder.org/v2/gh/xinetzone/poetry-book/main
         "binderhub_url": "https://mybinder.org",
         # "jupyterhub_url": "https://datahub.berkeley.edu",  # For testing
         "colab_url": "https://colab.research.google.com/",
